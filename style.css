@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000000;
+}
+header  h1{
+    color: white;
+    margin-top: 10px;
+}
+
+ nav ul{
+    list-style-type: none;
+    display: flex;
+ }
+
+ nav ul li {
+    margin: 17px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    justify-content: space-evenly;
+    font-size: 15px;
+    font-weight: 700;
+}
+#CONTENT1{
+     display: flex;
+     align-items: center; 
+     gap: 16rem;
+     margin-left: 8rem;
+}
+
+#TEXT p{
+    line-height: 2rem;
+    font-size: 14px;
+}
+#TEXT h1{
+    font-size:50px;
+    font-weight: 600;
+}
