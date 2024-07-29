@@ -13,16 +13,24 @@ header  h1{
     color: white;
     margin-top: 10px;
 }
+.menu-toggle {
+    display: none;
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
 
- nav ul{
+ .menu {
     list-style-type: none;
     display: flex;
  }
 
- nav ul li {
+ .menu li {
     margin: 17px;
 }
-nav ul li a {
+.menu li a {
     color: white;
     text-decoration: none;
     justify-content: space-evenly;
@@ -199,7 +207,7 @@ nav ul li a {
 .Box{
     display: flex; 
     margin-left: 7rem; 
-    margin-top: 6rem; 
+    margin-top: 4rem; 
     gap: 100px;
 }
 .Content4{
@@ -212,15 +220,111 @@ nav ul li a {
    justify-content: center; 
    margin-top: 5rem;
 }
+
+.container{
+    width:200px; 
+    height:150px; 
+    background: #ffffff; 
+    border-radius: 20px; 
+    box-shadow: 0 5px 0x  #ffb547;
+    transition: transform 0.4s ease, box-shadow 0.3s ease;
+ }
+ .container:hover {
+    transform: translateY(-10px) translateX(-4PX);
+    box-shadow: 0 5px 25px  #ffb547;
+}
+.container1{
+    width:200px; 
+    height:150px; 
+    background: #ffffff; 
+    border-radius: 20px; 
+    box-shadow: 0 5px 0x #ffb547;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.container1:hover{
+    transform: translateX(-4PX) translateY(-10px);
+    box-shadow: 0 5px 25px  #ffb547;
+}
+.container2{
+    width:200px; 
+    height:150px; 
+    background: #ffffff; 
+    border-radius: 20px;
+    box-shadow: 0 5px 0x #ffb547;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.container2:hover{
+    transform: translateY(-10px) translateX(-4PX);
+    box-shadow: 0 5px 25px  #ffb547;
+}
 .innerBox2{
     display: flex; 
     gap: 80px; 
     justify-content: center; 
     margin-top: 3rem;
 }
+.container3{
+    width:200px; 
+    height:150px; 
+    background: #ffffff; 
+    border-radius: 20px;
+    box-shadow: 0 5px 0x #ffb547;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.container3:hover{
+    transform: translateY(-10px) translateX(-4PX);
+    box-shadow: 0 5px 25px  #ffb547;
+}
+.container4{
+    width:200px; 
+    height:150px; 
+    background: #ffffff; 
+    border-radius: 20px;
+    box-shadow: 0 5px 0x #ffb547;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.container4:hover{
+    transform: translateY(-10px) translateX(-4PX);
+    box-shadow: 0 5px 25px  #ffb547;
+}
+.container5{
+    width:200px; 
+    height:150px; 
+    background: #ffffff; 
+    border-radius: 20px;
+    box-shadow: 0 5px 0x #ffb547;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.container5:hover{
+    transform: translateY(-10px) translateX(-4PX);
+    box-shadow: 0 5px 25px  #ffb547;
+}
 @media screen and (max-width:500px){
-    nav {
+    .menu{
         display: none;
+        flex-direction: column;
+        background-color:#ffb547;
+        position: absolute;
+        top: 60px;
+        right: 20px;
+        width: 250px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    }
+    .menu li {
+        margin: 0;
+        border-bottom: 1px solid #881111;
+    }
+    .menu li a{
+        font-size: 25px;
+    }
+
+    .menu a {
+        display: block;
+        padding: 25px;
+    }
+
+    .menu-toggle {
+        display: block;
     }
 
     .Content1{
@@ -342,11 +446,17 @@ nav ul li a {
         justify-content: center; 
         margin-top: 2rem;
      }
+     
      .innerBox2{
         display: flex; 
         gap: 20px; 
         
         
+    }
+
+    .container3 p{
+        font-size: 125px;
+        color: red;
     }
 
 }

@@ -16,11 +16,12 @@
             <div style="display: flex; justify-content: space-between; padding: 12px; ">
                 <h1 style="font-family: 'Roboto'; font-size: 30px; font-weight: 900;">Opetungee</h1>
                 <nav>
-                    <ul>
-                        <li><a style="color: #ffb547; text-decoration: underline;" href="#home" onclick="scrollToSection('home')">Home</a></li>
+                    <button class="menu-toggle" id="menu-toggle">☰</button>
+                    <ul class="menu" id="menu">
+                        <li><a style="color: #ffffff; text-decoration: underline;" href="#home" onclick="scrollToSection('home')">Home</a></li>
                         <li><a href="#Portfolio"onclick="scrollToSection('Portfolio')">Portfolio</a></li>
                         <li><a href="#About" onclick="scrollToSection('About')">About</a></li>
-                        <li><a href="#Skill" onclick="scrollToSection('Language')">Language</a></li>
+                        <li><a href="#Language" onclick="scrollToSection('Language')">Language</a></li>
                         <li><a href="#Service" onclick="scrollToSection('Service')">Services</a></li>
                         <li><a href="#Resume" onclick="scrollToSection('Resume')" >Resume</a></li>
                      </ul>
@@ -73,7 +74,7 @@
                             <p style="color: #ffffff; font-size: 15px; font-family: 'Roboto'; margin-left: 1rem;">CSS</p>
                             <small style="color: #ffffff; font-family: 'Roboto'; font-size: 15px;">80%</small>
                         </div>
-                        <label style="margin-right: 10px; font-size: 20px;" for="volume"></label>
+                        <label style="margin-right: 10px; " for="volume"></label>
                         <input style="width: 350px;" type="range" id="volume" name="volume" min="0" max="100" value="80">   
                     </div>
                     
@@ -102,7 +103,7 @@
                             <p style="color: #ffffff; font-size: 15px; font-family: 'Roboto'; margin-left: 1rem;">React</p>
                             <small style="color: #ffffff; font-family: 'Roboto'; font-size: 15px;">40%</small>
                         </div>
-                        <label style="margin-right: 10px; font-size: 20px;" for="volume"></label>
+                        <label style="margin-right: 10px; " for="volume"></label>
                         <input style="width: 350px;" type="range" id="volume" name="volume" min="0" max="100" value="40">   
                     </div>
                     
@@ -125,21 +126,21 @@
                 </div>
                 
                     <div class="innerBox1">
-                        <div style="width:200px; height:150px; background: #ffffff; border-radius: 20px;">
+                        <div class="container">
                             <style>.custom-size{ font-size: 40px; color: #ffb547; position: relative; top: 2rem; left: 4rem;}</style>
                             <i class="fa-solid fa-desktop custom-size"></i>
                             <h1 style="text-align: center; color: rgb(0, 0, 0); font-weight: 400; font-family: 'Roboto'; font-size: 13px; margin-top: 3rem;">web development</h1>
                             <p style="text-align: center; font-weight: 300; color: rgb(0, 0, 0); font-family: 'Roboto'; font-size: 12px; margin-top: 10px;" >Blog, Website</p>
                         </div>
         
-                        <div style="width:200px; height:150px; background: #ffffff; border-radius: 20px;">
+                        <div class="container1">
                             <style>.custom-size{ font-size: 40px; color: #ffb547; position: relative; top: 2rem; left: 4rem;}</style>
                             <i class="fa-brands fa-figma custom-size"></i>
                             <h1 style="text-align: center; color: rgb(0, 0, 0); font-weight: 400; font-family: 'Roboto'; font-size: 13px; margin-top: 3rem;">uI/uX design</h1>
                             <p style="text-align: center; font-weight: 300; color: rgb(0, 0, 0); font-family: 'Roboto'; font-size: 12px; margin-top: 10px;" >Mobile app, website design</p>
                         </div>
         
-                        <div style="width:200px; height:150px; background: #ffffff; border-radius: 20px;">
+                        <div class="container2">
                             <style>.custom-size{ font-size: 40px; color: #ffb547; position: relative; top: 2rem; }</style>
                             <i class="fa-solid fa-microphone custom-size"></i>
                             <h1 style="text-align: center; color: rgb(0, 0, 0); font-weight: 400; font-family: 'Roboto-thin'; font-size: 13px; margin-top: 3rem;">sound design</h1>
@@ -150,21 +151,21 @@
         
                     <div class="innerBox2">
         
-                        <div style="width:200px; height:150px; background: #ffffff; border-radius: 20px;">
+                        <div class="container3">
                             <style>.custom-size{ font-size: 40px; color: #ffb547; position: relative; top: 2rem; left: 4rem;}</style>
                             <i class="fa-solid fa-desktop custom-size"></i>
                             <h1 style="text-align: center; color: rgb(0, 0, 0); font-weight: 400; font-family: 'Roboto'; font-size: 13px; margin-top: 3rem;">web development</h1>
                             <p style="text-align: center; font-weight: 300; color: rgb(0, 0, 0); font-family: 'Roboto'; font-size: 12px; margin-top: 10px;" >Blog, Website</p>
                         </div>
         
-                        <div style="width:200px; height:150px; background: #ffffff; border-radius: 20px;">
+                        <div class="container4">
                             <style>.custom-size{ font-size: 40px; color: #ffb547; position: relative; top: 2rem; left: 4rem;}</style>
                             <i class="fa-solid fa-desktop custom-size"></i>
                             <h1 style="text-align: center; color: rgb(0, 0, 0); font-weight: 400; font-family: 'Roboto'; font-size: 13px; margin-top: 3rem;">web development</h1>
                             <p style="text-align: center; font-weight: 300; color: rgb(0, 0, 0); font-family: 'Roboto'; font-size: 12px; margin-top: 10px;" >Blog, Website</p>
                         </div>
         
-                        <div style="width:200px; height:150px; background: #ffffff; border-radius: 20px;">
+                        <div class="container5" >
                             <style>.custom-size{ font-size: 40px; color: #ffb547; position: relative; top: 2rem; left: 4rem;}</style>
                             <i class="fa-solid fa-desktop custom-size"></i>
                             <h1 style="text-align: center; color: rgb(0, 0, 0); font-weight: 400; font-family: 'Roboto'; font-size: 13px; margin-top: 3rem;">web development</h1>
@@ -174,6 +175,6 @@
                     </div>
                 </div>
             </section>  
-    <script src="script1.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
