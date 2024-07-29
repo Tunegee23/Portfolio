@@ -44,7 +44,7 @@ header  h1{
     border-radius: 15px ;
     display: flex;
     align-content: center;
-    gap: 16rem;
+    gap: 12rem;
     margin-top: 4rem;
 }
 .Text{
