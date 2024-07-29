@@ -1,0 +1,463 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background-color: #000000;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+header  h1{
+    color: white;
+    margin-top: 10px;
+}
+.menu-toggle {
+    display: none;
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+ .menu {
+    list-style-type: none;
+    display: flex;
+ }
+
+ .menu li {
+    margin: 17px;
+}
+.menu li a {
+    color: white;
+    text-decoration: none;
+    justify-content: space-evenly;
+    font-size: 15px;
+    font-family: "Roboto";
+    font-weight: 500;
+    cursor: pointer;
+}
+.Content1{
+    border-radius: 15px ;
+    display: flex;
+    align-content: center;
+    gap: 12rem;
+    margin-top: 4rem;
+}
+.Text{
+    align-items: center; 
+    margin-left: 6rem;
+    margin-top: 4rem;
+}
+
+.Text p{
+    color:#ffb54788 ; 
+    font-family: 'Roboto'; 
+    font-size: 20px; 
+    font-weight: 400;
+}
+.Text h1{
+    color:#ffb547;
+    font-family:'Roboto';
+    font-size: 80px; 
+    font-weight:900;
+}
+.Text h1 strong{
+    color: white;
+}
+.Text h2{
+    color: white;
+    line-height: 3rem;
+    font-family: 'Roboto'; 
+    font-size: 22px; 
+    font-weight: 500;
+}
+.Button{
+    display: flex;
+    gap: 1rem;
+}
+.Button .button1{
+    width: 80px;
+    height: 35px;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: #ffb547; 
+    font-family: 'Roboto';
+    font-size: 13px; 
+    font-weight: 700;
+}
+.Button .button2{
+    width: 80px; 
+    height: 35px; 
+    cursor: pointer;
+    border-radius: 20px ; 
+    border: 1px solid white; 
+    background: transparent; 
+    font-family: 'Roboto'; 
+    font-size: 13px; 
+    font-weight: 700;
+    color: white;
+}
+.img{
+    border: 1px solid ;
+    border-radius: 10px;
+    box-shadow: 6px 4px 6px  #ffb547;
+}
+.img img{
+    width: 600px;
+    height: 440px;
+}
+
+.Content2{
+   gap: 10rem;
+   display: flex;
+   margin-top: 10rem;
+}
+
+.Text1{
+    display: block;
+}
+.Text1 h1{
+    color:#ffffff;
+    margin-top: 5rem; 
+    font-family: 'Roboto';
+    font-size: 40px;
+    font-weight: 700;
+}
+.Text1 p{
+    color: #ffffff; 
+    margin-top: 1rem; 
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 2px; 
+    font-family: 'Roboto';
+}
+.Text1 .Inner_text{
+    margin-top:1rem; 
+    line-height: 2rem;
+}
+.Inner_text ol{
+    color: rgba(255, 255, 255, 0.288); 
+    font-family: 'Roboto'; 
+    font-size: 15px; 
+    font-weight: 500;
+}
+.Inner_text ol strong{
+    color:#ffffff; 
+    font-size: 17px; 
+    font-weight: 500; ;
+}
+.Text1 h3{
+    color: #ffffff; 
+    font-size: 19px; 
+    font-weight: 700; 
+    font-family: 'Roboto'; 
+    margin-top:1rem;
+}
+.Text1 h3 strong{
+    color:#ffb547; 
+    font-size: 20px; 
+    font-weight: 900;
+}
+.img2{
+    width: 650px; 
+    background-color: transparent; 
+    border: 1px solid ;
+    border-radius: 10px;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    box-shadow:  -6px -4px 2px  #ffb547 ;
+}
+
+.Content3{
+    line-height: 40px; 
+    margin-top: 15em;
+    display: block;
+}
+.Text2{
+    text-align: center;
+    text-align: center; 
+    line-height: 40px; 
+}
+.Text2 h1{
+    color:white;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Roboto';
+}
+
+.Text2 p{
+    color: white; 
+    font-family: 'Roboto'; 
+    font-size: 17px; 
+    letter-spacing: 3px; 
+    font-weight: 500;
+    margin-top: 10px;
+}
+.box{
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    margin-top: 3rem; 
+    gap: 100px;
+}
+.Box{
+    display: flex; 
+    margin-left: 7rem; 
+    margin-top: 4rem; 
+    gap: 100px;
+}
+.Content4{
+    text-align: center;
+    margin-top: 10rem;
+}
+.innerBox1{
+   display: flex; 
+   gap: 80px; 
+   justify-content: center; 
+   margin-top: 5rem;
+}
+
+.container{
+    width:200px; 
+    height:150px; 
+    background: #ffffff; 
+    border-radius: 20px; 
+    box-shadow: 0 5px 0x  #ffb547;
+    transition: transform 0.4s ease, box-shadow 0.3s ease;
+ }
+ .container:hover {
+    transform: translateY(-10px) translateX(-4PX);
+    box-shadow: 0 5px 25px  #ffb547;
+}
+.container1{
+    width:200px; 
+    height:150px; 
+    background: #ffffff; 
+    border-radius: 20px; 
+    box-shadow: 0 5px 0x #ffb547;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.container1:hover{
+    transform: translateX(-4PX) translateY(-10px);
+    box-shadow: 0 5px 25px  #ffb547;
+}
+.container2{
+    width:200px; 
+    height:150px; 
+    background: #ffffff; 
+    border-radius: 20px;
+    box-shadow: 0 5px 0x #ffb547;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.container2:hover{
+    transform: translateY(-10px) translateX(-4PX);
+    box-shadow: 0 5px 25px  #ffb547;
+}
+.innerBox2{
+    display: flex; 
+    gap: 80px; 
+    justify-content: center; 
+    margin-top: 3rem;
+}
+.container3{
+    width:200px; 
+    height:150px; 
+    background: #ffffff; 
+    border-radius: 20px;
+    box-shadow: 0 5px 0x #ffb547;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.container3:hover{
+    transform: translateY(-10px) translateX(-4PX);
+    box-shadow: 0 5px 25px  #ffb547;
+}
+.container4{
+    width:200px; 
+    height:150px; 
+    background: #ffffff; 
+    border-radius: 20px;
+    box-shadow: 0 5px 0x #ffb547;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.container4:hover{
+    transform: translateY(-10px) translateX(-4PX);
+    box-shadow: 0 5px 25px  #ffb547;
+}
+.container5{
+    width:200px; 
+    height:150px; 
+    background: #ffffff; 
+    border-radius: 20px;
+    box-shadow: 0 5px 0x #ffb547;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.container5:hover{
+    transform: translateY(-10px) translateX(-4PX);
+    box-shadow: 0 5px 25px  #ffb547;
+}
+@media screen and (max-width:780px){
+    .menu{
+        display: none;
+        flex-direction: column;
+        background-color:#ffb547;
+        position: absolute;
+        top: 60px;
+        right: 20px;
+        width: 250px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    }
+    .menu li {
+        margin: 0;
+        border-bottom: 1px solid #881111;
+    }
+    .menu li a{
+        font-size: 25px;
+    }
+
+    .menu a {
+        display: block;
+        padding: 25px;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .Content1{
+        display: block;
+    }
+    .Text{
+        margin-top: 2rem;
+        margin-left: 10px;
+        justify-content: center;
+    }
+    .Text h1{
+        color:#ffb547;
+        font-family:'Roboto';
+        font-size: 70px; 
+        font-weight:900;
+        text-align: center
+    }
+    .Text h2{
+        text-align: center;
+        font-size: 20px;
+        
+    }
+    .Text p{
+        margin-left: 6rem;
+        font-size: 20px;
+    }
+
+    .img {
+        width: 350px; 
+        margin-top: 2rem;
+        margin-left: 6rem;
+    }
+    .img img{
+        margin-left: -8rem;
+    }
+    .Button{
+        justify-content: center;
+    }
+
+    .Content2{
+        display: block;
+        margin-top: 8rem;
+     }
+
+     .img2 {
+        width: 300px; 
+        margin-top: 2rem;
+        margin-left: 6rem;
+    }
+    .img2 img{
+        margin-left: -7rem;
+    }
+
+    .Text1{
+        display: block;
+        margin-left: 10px;
+    }
+    .Text1 h1{
+        font-size: 40px;
+        text-align: center;
+    }
+    .Text1 p{
+        font-size: 20px;
+        text-align: center;
+        line-height: 30px;
+        color:white;
+        font-weight: 400;
+    }
+    .Text1 .Inner_text{
+        margin-left: 5rem;
+        line-height: 3rem;
+    }
+    .Inner_text ol{
+        font-size: 25px; 
+    }
+    .Inner_text ol strong{
+        font-size: 27px; 
+    }
+
+    .Text1 h3{
+        font-size: 23px; 
+       margin-left: 5rem;
+    }
+    .Text1 h3 strong{
+        font-size: 30px; 
+    }
+
+    .Content3{
+        display: block;
+        margin-top: 5rem;
+    }
+    .Text2 h1{
+        font-size: 40px;
+        color: white;
+    }
+    
+    .Text2 p{
+      color: white;
+    }
+    .box{
+        display: block; 
+        align-items: center; 
+        justify-content: center; 
+        margin-top: 3rem; 
+        gap: 100px;
+        margin-left: 2rem;
+    }
+    .Box {
+        display: block; 
+        align-items: center; 
+        justify-content: center; 
+        margin-left: 2rem;
+        margin-top: 1rem;
+    }
+
+    .innerBox1{
+        display: flex; 
+        gap: 20px; 
+        justify-content: center; 
+        margin-top: 2rem;
+     }
+     
+     .innerBox2{
+        display: flex; 
+        gap: 20px; 
+        
+        
+    }
+
+    .container3 p{
+        font-size: 125px;
+        color: red;
+    }
+
+}
