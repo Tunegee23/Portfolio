@@ -484,7 +484,6 @@ header  h1{
     .img{
         margin-top: 1rem;
         width: 300px;
-        background-color: green;
         margin-left: 5rem;
     }
     .img img{
@@ -500,7 +499,6 @@ header  h1{
     .img2 {
         margin-top: 1rem;
         width: 300px;
-        background-color: green;
         margin-left: 5rem;
     }
     .img2 img{
