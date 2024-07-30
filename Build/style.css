@@ -43,13 +43,13 @@ header  h1{
     border-radius: 15px ;
     display: flex;
     align-content: center;
-    gap: 18rem;
-    margin-top: 3rem;
+    gap: 15rem;
+    margin-top: 2rem;
 }
 .Text{
     align-items: center; 
     margin-left: 6rem;
-    margin-top: 4rem;
+    margin-top: 3rem;
 }
 
 .Text p{
@@ -101,7 +101,6 @@ header  h1{
     color: white;
 }
 .img{
-    background-color: red;
     border: 1px solid ;
     border-radius: 10px;
     box-shadow: 6px 4px 6px  #ffb547;
@@ -444,18 +443,21 @@ header  h1{
         right: 20px;
         width: 200px;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+        transition: max-height 0.5s ease-out;
     }
     .menu li {
         margin: 0;
         border-bottom: 1px solid white;
+        height: 50px;
+        display: block;
     }
     .menu li a{
         font-size: 20px;
     }
 
     .menu a {
-        display: block;
-        
+        padding: 5px 10px;
+        transition: 0.3s;
     }
 
     .menu-toggle {
