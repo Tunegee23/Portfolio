@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 body{
-    width: 100%;
     background-color: #000000;
     font-family: "Roboto", sans-serif;
     font-weight: 900;
@@ -44,8 +43,8 @@ header  h1{
     border-radius: 15px ;
     display: flex;
     align-content: center;
-    gap: 12rem;
-    margin-top: 4rem;
+    gap: 18rem;
+    margin-top: 3rem;
 }
 .Text{
     align-items: center; 
@@ -102,6 +101,7 @@ header  h1{
     color: white;
 }
 .img{
+    background-color: red;
     border: 1px solid ;
     border-radius: 10px;
     box-shadow: 6px 4px 6px  #ffb547;
@@ -109,6 +109,7 @@ header  h1{
 .img img{
     width: 600px;
     height: 440px;
+    margin-left: 1rem;
 }
 
 .Content2{
@@ -175,12 +176,11 @@ header  h1{
 
 .Content3{
     line-height: 40px; 
-    margin-top: 15em;
+    margin-top: 13rem;
     display: block;
 }
 .Text2{
     text-align: center;
-    text-align: center; 
     line-height: 40px; 
 }
 .Text2 h1{
@@ -194,8 +194,8 @@ header  h1{
     color: white; 
     font-family: 'Roboto'; 
     font-size: 17px; 
-    letter-spacing: 3px; 
-    font-weight: 500;
+    letter-spacing: 2px; 
+    font-weight: 700;
     margin-top: 10px;
 }
 .box{
@@ -213,7 +213,22 @@ header  h1{
 }
 .Content4{
     text-align: center;
-    margin-top: 10rem;
+    margin-top: 7rem;
+}
+.header_Text h1{
+    color: #ffffff; 
+    font-weight: 700; 
+    font-family: 'Roboto'; 
+    font-size: 40px; 
+    line-height: 3rem;
+}
+.header_Text p{
+    color: #ffffff; 
+    font-family: 'Roboto'; 
+    font-size: 17px; 
+    letter-spacing: 3px; 
+    margin-top: 5px; 
+    font-weight: 500;
 }
 .innerBox1{
    display: flex; 
@@ -300,164 +315,291 @@ header  h1{
     transform: translateY(-10px) translateX(-4PX);
     box-shadow: 0 5px 25px  #ffb547;
 }
-@media screen and (max-width:780px){
+.container .custom-size{
+    font-size: 40px;
+     color:  #ffb547; 
+     position: relative; 
+     top: 2rem; 
+     left: 3px; 
+}
+.container h1{
+    text-align: center; 
+    color: rgb(0, 0, 0); 
+    font-weight: 500; 
+    font-family: 'Roboto'; 
+    font-size: 20px; 
+    margin-top: 2.3rem;
+}
+.container p{
+    text-align: center; 
+    font-weight: 500; 
+    color: rgb(0, 0, 0); 
+    font-family: 'Roboto'; 
+    font-size: 12px; 
+    margin-top: 10px;
+}
+
+
+.container1 .custom-size{
+    font-size: 40px;
+     color:  #ffb547; 
+     position: relative; 
+     top: 2rem; 
+     left: 3px; 
+}
+.container1 h1{
+    text-align: center; 
+    color: rgb(0, 0, 0); 
+    font-weight: 500; 
+    font-family: 'Roboto'; 
+    font-size: 20px; 
+    margin-top: 2.3rem;
+}
+.container1 p{
+    text-align: center; 
+    font-weight: 500; 
+    color: rgb(0, 0, 0); 
+    font-family: 'Roboto'; 
+    font-size: 12px; 
+    margin-top: 6px;
+}
+.container2 .custom-size{
+    font-size: 40px;
+     color:  #ffb547; 
+     position: relative; 
+     top: 1rem; 
+     left: 3px;  
+}
+.container2 h1{
+    text-align: center; 
+    color: rgb(0, 0, 0); 
+    font-weight: 500; 
+    font-family: 'Roboto-thin'; 
+    font-size: 20px; 
+    margin-top: 2.3rem;
+}
+.container2 p{
+    text-align: center; 
+    font-weight: 500; 
+    color: rgb(0, 0, 0); 
+    font-family: 'Roboto'; 
+    font-size: 12px; 
+    margin-top: 6px;
+}
+.container3 .custom-size{
+    font-size: 40px;
+     color:  #ffb547; 
+     position: relative; 
+     top: 2rem; 
+     left: 3px;  
+}
+.container3 h1{
+    text-align: center; 
+    color: rgb(0, 0, 0); 
+    font-weight: 500; 
+    font-family: 'Roboto'; 
+    font-size: 20px; 
+    margin-top: 2.3rem;
+}
+.container3 p{
+    text-align: center; 
+    font-weight: 500; 
+    color: rgb(0, 0, 0); 
+    font-family: 'Roboto'; 
+    font-size: 12px; 
+    margin-top: 6px;
+}
+
+.container4 .custom-size{
+    font-size: 40px;
+     color:  #ffb547; 
+     position: relative; 
+     top: 1rem; 
+     left: 3px;  
+}
+.container4 h1{
+    text-align: center; 
+    color: rgb(0, 0, 0); 
+    font-weight: 400; 
+    font-family: 'Roboto'; 
+    font-size: 20px; 
+    margin-top: 2.3rem;
+}
+.container4 p{
+    text-align: center; 
+    font-weight: 500; 
+    color: rgb(0, 0, 0); 
+    font-family: 'Roboto'; 
+    font-size: 12px; 
+    margin-top: 6px;
+}
+
+@media screen and (max-width:500px){
     .menu{
         display: none;
         flex-direction: column;
-        background-color:#ffb547;
+        background-color:#ffb54785;
         position: absolute;
         top: 60px;
         right: 20px;
-        width: 250px;
+        width: 200px;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
     }
     .menu li {
         margin: 0;
-        border-bottom: 1px solid #881111;
+        border-bottom: 1px solid white;
     }
     .menu li a{
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .menu a {
         display: block;
-        padding: 25px;
+        
     }
 
     .menu-toggle {
         display: block;
     }
-
     .Content1{
         display: block;
     }
+
     .Text{
-        margin-top: 2rem;
-        margin-left: 10px;
-        justify-content: center;
-    }
-    .Text h1{
-        color:#ffb547;
-        font-family:'Roboto';
-        font-size: 70px; 
-        font-weight:900;
-        text-align: center
-    }
-    .Text h2{
-        text-align: center;
-        font-size: 20px;
-        
+        width: 100%;
+        margin-top: 1rem;
+        margin-left: 6rem;
     }
     .Text p{
-        margin-left: 6rem;
         font-size: 20px;
     }
-
-    .img {
-        width: 350px; 
-        margin-top: 2rem;
-        margin-left: 6rem;
+    .Text h1{
+        font-size: 45px;
+    }
+    .Text h2{
+        font-size: 19px;
+    }
+    .img{
+        margin-top: 1rem;
+        width: 300px;
+        background-color: green;
+        margin-left: 5rem;
     }
     .img img{
-        margin-left: -8rem;
-    }
-    .Button{
-        justify-content: center;
+        position: relative;
+        right: 4rem;
+        width: 400px;
     }
 
     .Content2{
         display: block;
-        margin-top: 8rem;
-     }
+    }
 
-     .img2 {
-        width: 300px; 
-        margin-top: 2rem;
-        margin-left: 6rem;
+    .img2 {
+        margin-top: 1rem;
+        width: 300px;
+        background-color: green;
+        margin-left: 5rem;
     }
     .img2 img{
-        margin-left: -7rem;
+        position: relative;
+        right: 4rem;
+        width: 400px;
     }
 
-    .Text1{
-        display: block;
-        margin-left: 10px;
-    }
-    .Text1 h1{
-        font-size: 40px;
-        text-align: center;
+    .Text1 h1, h3{
+       text-align: center;
     }
     .Text1 p{
-        font-size: 20px;
         text-align: center;
-        line-height: 30px;
-        color:white;
-        font-weight: 400;
-    }
-    .Text1 .Inner_text{
-        margin-left: 5rem;
-        line-height: 3rem;
+        font-weight: 600;
+        font-size: 15px;
     }
     .Inner_text ol{
-        font-size: 25px; 
+        text-align: center;
+        font-size: 20px;
     }
     .Inner_text ol strong{
-        font-size: 27px; 
+        font-size: 20px;
+        font-weight: 700;
     }
-
-    .Text1 h3{
-        font-size: 23px; 
-       margin-left: 5rem;
-    }
-    .Text1 h3 strong{
-        font-size: 30px; 
-    }
-
     .Content3{
-        display: block;
         margin-top: 5rem;
     }
     .Text2 h1{
         font-size: 40px;
-        color: white;
+        font-weight: 900;
     }
-    
     .Text2 p{
-      color: white;
+        font-size: 15px;
+        line-height: 1.5rem;
     }
     .box{
-        display: block; 
-        align-items: center; 
-        justify-content: center; 
-        margin-top: 3rem; 
-        gap: 100px;
-        margin-left: 2rem;
-    }
-    .Box {
-        display: block; 
-        align-items: center; 
-        justify-content: center; 
-        margin-left: 2rem;
-        margin-top: 1rem;
-    }
-
-    .innerBox1{
-        display: flex; 
-        gap: 20px; 
-        justify-content: center; 
+        display: block;
+        margin-left: 3rem;
         margin-top: 2rem;
-     }
-     
-     .innerBox2{
-        display: flex; 
-        gap: 20px; 
-        
-        
+    }
+    .Box{
+        display: block;
+        margin-top: 1rem;
+        margin-left: 3rem;
+    }
+    .Content4{
+        margin-top: 3rem;
+    }
+    .header_Text{
+        text-align: center;
+    }
+    .header_Text h1{
+        margin-top: 1rem;
+        font-size: 45px;
+    }
+    .header_Text p{
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    .innerBox1{
+       flex-direction: column;
+       gap: 2rem;
+       align-items: center;
+    }
+    .container, .container1,.container2{
+        width: 300px;
+        height: 200px;
+    }
+    .innerBox2{
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
     }
 
-    .container3 p{
-        font-size: 125px;
-        color: red;
+    .container3, .container4,.container5{
+        width: 300px;
+        height: 200px;
     }
-
+    .container h1{
+        font-size: 20px;
+        font-weight: 500;
+        margin-top: 3rem;
+    }
+    .container1 h1{
+        font-size: 20px;
+        font-weight: 500;
+        margin-top: 3rem;
+    }
+    .container2 h1{
+        font-size: 20px;
+        font-weight: 500;
+        margin-top: 3rem;
+    }
+    .container3 h1{
+        font-size: 20px;
+        font-weight: 500;
+        margin-top: 3rem;
+    }
+    .container4 h1{
+        font-size: 20px;
+        font-weight: 500;
+        margin-top: 3rem;
+    }
 }
