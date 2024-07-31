@@ -39,11 +39,16 @@ header  h1{
     font-weight: 500;
     cursor: pointer;
 }
+.menu li:hover{
+    color: #ffb547;
+    text-decoration: underline;
+    line-height: 1px;
+}
 .Content1{
     border-radius: 15px ;
     display: flex;
     align-content: center;
-    gap: 15rem;
+    gap: 12rem;
     margin-top: 2rem;
 }
 .Text{
@@ -66,6 +71,14 @@ header  h1{
 }
 .Text h1 strong{
     color: white;
+}
+.Resume{
+    width: 130px;
+    height: 40px;
+    background-color:#ffb547;
+    border-radius: 10px;
+    margin-top: 10px;
+    cursor: pointer;
 }
 .Text h2{
     color: white;
@@ -432,6 +445,52 @@ header  h1{
     font-size: 12px; 
     margin-top: 6px;
 }
+.Content5{
+   text-align: center;
+}
+.Text3 h1{
+    color: white;
+    align-items: center;
+    margin-top: 7rem;
+}
+.boxContainer{
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+}
+.boxContent{
+    width: 800px;
+    height: 300px;
+    border: 2px solid #ffb547 ;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+ .Img{
+    width: 250px;
+    height: 200px;
+    margin-bottom: 1rem;
+    background-position: center;
+    cursor: pointer;
+    margin-left: 1rem;
+    margin-top: 2rem;
+    box-shadow: 0 5px 0x #ffb547;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+}
+.Img:hover{
+    transform: translateY(-10px) translateX(-4PX);
+    box-shadow: 0 5px 25px  #ffb547;
+}
+.Img p{
+    margin-top: 1rem;
+    color: white;
+}
+
 
 @media screen and (max-width:500px){
     .menu{
@@ -523,6 +582,10 @@ header  h1{
         font-size: 20px;
         font-weight: 700;
     }
+    .Resume{
+        margin-top: 1rem;
+      margin-left: 11rem;
+    }
     .Content3{
         margin-top: 5rem;
     }
@@ -601,5 +664,14 @@ header  h1{
         font-size: 20px;
         font-weight: 500;
         margin-top: 3rem;
+    }
+
+
+    .boxContent{
+        width: 250px;
+        height: 800px;
+        align-items: center;
+        flex-direction: column;
+        border: none;
     }
 }

@@ -23,11 +23,3 @@ function scrollToSection(sectionId) {
         })
     });
 
-   
-        const menuLinks = document.querySelectorAll(".menu a");
-        menuLinks.forEach(link => {
-            link.addEventListener("click", function() {
-                menu.classList.remove("active");
-            });
-        });
-    
