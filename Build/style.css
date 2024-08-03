@@ -1,46 +1,42 @@
 *{
+    padding: 0;
     margin: 0;
-    padding:0;
     box-sizing: border-box;
 }
 body{
     width: 100%;
-    background-color: #000000;
-    font-family: "Roboto", sans-serif;
-    font-weight: 900;
-    font-style: normal;
+    height: 100vh;
+    background-color:black;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
 }
-header  h1{
-    color: white;
-    margin-top: 10px;
-}
-.menu-toggle {
-    display: none;
-    font-size: 24px;
-    background: none;
-    border: none;
-    color: #fff;
-    cursor: pointer;
+.Navbar{
+    display: flex;  
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
- .menu {
-    list-style-type: none;
+.Navbar h1{ 
+    font-size: 30px; 
+    font-weight: 600;
+    color: white;
+}
+.nav {
     display: flex;
- }
+    list-style-type: none;
 
- .menu li {
-    margin: 17px;
 }
-.menu li a {
-    color: white;
+.nav li{
+    margin: 10px;
+}
+.nav li a{
     text-decoration: none;
-    justify-content: space-evenly;
+    color: white;
+    font-weight: 600;
     font-size: 15px;
-    font-family: "Roboto";
-    font-weight: 500;
     cursor: pointer;
-}
-.menu li:hover{
+} 
+.nav li:hover{
     color: #ffb547;
     text-decoration: underline;
     line-height: 1px;
@@ -48,21 +44,20 @@ header  h1{
 .Content1{
     display: flex;
     align-content: center;
-    gap: 12rem;
-    margin-top: 2rem;
     flex-wrap: wrap;
+    margin-top: 3rem;
+    gap: 15rem;
 }
 .Text{
     align-items: center; 
     margin-left: 6rem;
+    flex-wrap: wrap;
     margin-top: 3rem;
 }
-
 .Text p{
     color:#ffb54788 ; 
-    font-family: 'Roboto'; 
     font-size: 20px; 
-    font-weight: 400;
+    margin-top: 2rem;
 }
 .Text h1{
     color:#ffb547;
@@ -83,6 +78,7 @@ header  h1{
 .Button{
     display: flex;
     gap: 1rem;
+    flex-wrap: wrap;
 }
 .Button .button1{
     width: 80px;
@@ -90,7 +86,6 @@ header  h1{
     cursor: pointer;
     border-radius: 20px;
     background-color: #ffb547; 
-    font-family: 'Roboto';
     font-size: 13px; 
     font-weight: 700;
 }
@@ -100,37 +95,44 @@ header  h1{
     cursor: pointer;
     border-radius: 20px ; 
     border: 1px solid white; 
-    background: transparent; 
-    font-family: 'Roboto'; 
+    background: transparent;  
     font-size: 13px; 
     font-weight: 700;
     color: white;
 }
 .img{
-    border: 1px solid ;
     border-radius: 10px;
     box-shadow: 6px 4px 6px  #ffb547;
+    flex-wrap: wrap;
 }
 .img img{
-    width: 600px;
+    width: 500px;
     height: 440px;
-    margin-left: 1rem;
 }
-
 .Content2{
-   gap: 10rem;
-   display: flex;
-   margin-top: 10rem;
-   flex-wrap: wrap;
-}
-
-.Text1{
+    gap: 8rem;
+    display: flex;
+    margin-top: 6rem;
+    flex-wrap: wrap;
+ }
+ .img2{
+    border-radius: 10px;
+    box-shadow:  -6px 4px 2px  #ffb547 ;
+    flex-wrap: wrap;
+    margin-left: 3rem;
+ }
+ .img2 img{
+    width: 500px;
+    height: 440px;
+    margin-left: 5rem;
+ }
+ .Text1{
     display: block;
+    text-align: center;
 }
 .Text1 h1{
     color:#ffffff;
     margin-top: 5rem; 
-    font-family: 'Roboto';
     font-size: 40px;
     font-weight: 700;
 }
@@ -141,33 +143,31 @@ header  h1{
     font-weight: 500;
     line-height: 19px;
     letter-spacing: 2px; 
-    font-family: 'Roboto';
 }
 .Text1 .Inner_text{
     margin-top:1rem; 
     line-height: 2rem;
+    flex-wrap: wrap;
 }
 .Inner_text ol{
     color: rgba(255, 255, 255, 0.288); 
-    font-family: 'Roboto'; 
-    font-size: 15px; 
+    font-size: 19px; 
     font-weight: 500;
 }
 .Inner_text ol strong{
     color:#ffffff; 
-    font-size: 17px; 
+    font-size: 22px; 
     font-weight: 500; ;
 }
 .Text1 h3{
     color: #ffffff; 
-    font-size: 19px; 
+    font-size: 18px; 
     font-weight: 700; 
-    font-family: 'Roboto'; 
     margin-top:1rem;
 }
 .Text1 h3 strong{
     color:#ffb547; 
-    font-size: 20px; 
+    font-size: 22px; 
     font-weight: 900;
 }
 .Resume{
@@ -178,84 +178,74 @@ header  h1{
     margin-top: 10px;
     cursor: pointer;
 }
-.img2{
-    width: 650px; 
-    background-color: transparent; 
-    border: 1px solid ;
-    border-radius: 10px;
-    margin-top: 1rem;
-    margin-left: 2rem;
-    box-shadow:  -6px -4px 2px  #ffb547 ;
-}
-
 .Content3{
     line-height: 40px; 
-    margin-top: 13rem;
+    margin-top: 10rem;
     display: block;
     flex-wrap: wrap;
 }
 .Text2{
     text-align: center;
-    line-height: 40px; 
+    line-height: 40px;
+    flex-wrap: wrap; 
 }
 .Text2 h1{
     color:white;
     font-size: 40px;
     font-weight: 700;
-    font-family: 'Roboto';
 }
-
 .Text2 p{
     color: white; 
-    font-family: 'Roboto'; 
     font-size: 17px; 
     letter-spacing: 2px; 
-    font-weight: 700;
-    margin-top: 10px;
+    font-weight: 500;
+    margin-top: 6px;
 }
 .box{
     display: flex; 
     align-items: center; 
     justify-content: center; 
-    margin-top: 3rem; 
+    margin-top: 2rem; 
     gap: 100px;
+    flex-wrap: wrap;
 }
 .Box{
     display: flex; 
     margin-left: 7rem; 
-    margin-top: 4rem; 
+    margin-top: 2rem; 
     gap: 100px;
+    flex-wrap: wrap;
 }
 .Content4{
     text-align: center;
     margin-top: 7rem;
     flex-wrap: wrap;
 }
+
 .header_Text{
     flex-wrap: wrap;
 }
 .header_Text h1{
     color: #ffffff; 
     font-weight: 700; 
-    font-family: 'Roboto'; 
     font-size: 40px; 
     line-height: 3rem;
 }
 .header_Text p{
-    color: #ffffff; 
-    font-family: 'Roboto'; 
+    color: white; 
     font-size: 17px; 
-    letter-spacing: 3px; 
-    margin-top: 5px; 
+    letter-spacing: 2px; 
     font-weight: 500;
+    margin-top: 6px;
 }
 .innerBox1{
-   display: flex; 
-   gap: 80px; 
-   justify-content: center; 
-   margin-top: 5rem;
-}
+    display: flex; 
+    gap: 60px; 
+    justify-content: center; 
+    margin-top: 4rem;
+    flex-wrap: wrap;
 
+}
 .container{
     width:200px; 
     height:150px; 
@@ -263,10 +253,31 @@ header  h1{
     border-radius: 20px; 
     box-shadow: 0 5px 0x  #ffb547;
     transition: transform 0.4s ease, box-shadow 0.3s ease;
- }
- .container:hover {
+}
+.container:hover {
     transform: translateY(-10px) translateX(-4PX);
     box-shadow: 0 5px 25px  #ffb547;
+}
+.container .custom-size{
+    font-size: 40px;
+    color:  #ffb547; 
+    position: relative; 
+    top: 2rem; 
+    left: 3px; 
+}
+.container h1{
+    text-align: center; 
+    color: rgb(0, 0, 0); 
+    font-weight: 500; 
+    font-size: 20px; 
+    margin-top: 2.3rem;
+}
+.container p{
+    text-align: center; 
+    font-weight: 500; 
+    color: rgb(0, 0, 0); 
+    font-size: 12px; 
+    margin-top: 10px;
 }
 .container1{
     width:200px; 
@@ -280,6 +291,28 @@ header  h1{
     transform: translateX(-4PX) translateY(-10px);
     box-shadow: 0 5px 25px  #ffb547;
 }
+
+.container1 .custom-size{
+    font-size: 40px;
+     color:  #ffb547; 
+     position: relative; 
+     top: 2rem; 
+     left: 3px; 
+}
+.container1 h1{
+    text-align: center; 
+    color: rgb(0, 0, 0); 
+    font-weight: 500; 
+    font-size: 20px; 
+    margin-top: 2.3rem;
+}
+.container1 p{
+    text-align: center; 
+    font-weight: 500; 
+    color: rgb(0, 0, 0); 
+    font-size: 12px; 
+    margin-top: 6px;
+}
 .container2{
     width:200px; 
     height:150px; 
@@ -292,12 +325,36 @@ header  h1{
     transform: translateY(-10px) translateX(-4PX);
     box-shadow: 0 5px 25px  #ffb547;
 }
+.container2 .custom-size{
+    font-size: 40px;
+     color:  #ffb547; 
+     position: relative; 
+     top: 1rem; 
+     left: 3px;  
+}
+.container2 h1{
+    text-align: center; 
+    color: rgb(0, 0, 0); 
+    font-weight: 500; 
+    font-size: 20px; 
+    margin-top: 2.3rem;
+}
+.container2 p{
+    text-align: center; 
+    font-weight: 500; 
+    color: rgb(0, 0, 0); 
+    font-size: 12px; 
+    margin-top: 6px;
+}
+
 .innerBox2{
     display: flex; 
-    gap: 80px; 
+    gap: 60px; 
     justify-content: center; 
     margin-top: 3rem;
+    flex-wrap: wrap;
 }
+
 .container3{
     width:200px; 
     height:150px; 
@@ -309,6 +366,28 @@ header  h1{
 .container3:hover{
     transform: translateY(-10px) translateX(-4PX);
     box-shadow: 0 5px 25px  #ffb547;
+}
+
+.container3 .custom-size{
+    font-size: 40px;
+     color:  #ffb547; 
+     position: relative; 
+     top: 2rem; 
+     left: 3px;  
+}
+.container3 h1{
+    text-align: center; 
+    color: rgb(0, 0, 0); 
+    font-weight: 500; 
+    font-size: 20px; 
+    margin-top: 2.3rem;
+}
+.container3 p{
+    text-align: center; 
+    font-weight: 500; 
+    color: rgb(0, 0, 0); 
+    font-size: 12px; 
+    margin-top: 6px;
 }
 .container4{
     width:200px; 
@@ -322,113 +401,6 @@ header  h1{
     transform: translateY(-10px) translateX(-4PX);
     box-shadow: 0 5px 25px  #ffb547;
 }
-.container5{
-    width:200px; 
-    height:150px; 
-    background: #ffffff; 
-    border-radius: 20px;
-    box-shadow: 0 5px 0x #ffb547;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-.container5:hover{
-    transform: translateY(-10px) translateX(-4PX);
-    box-shadow: 0 5px 25px  #ffb547;
-}
-.container .custom-size{
-    font-size: 40px;
-     color:  #ffb547; 
-     position: relative; 
-     top: 2rem; 
-     left: 3px; 
-}
-.container h1{
-    text-align: center; 
-    color: rgb(0, 0, 0); 
-    font-weight: 500; 
-    font-family: 'Roboto'; 
-    font-size: 20px; 
-    margin-top: 2.3rem;
-}
-.container p{
-    text-align: center; 
-    font-weight: 500; 
-    color: rgb(0, 0, 0); 
-    font-family: 'Roboto'; 
-    font-size: 12px; 
-    margin-top: 10px;
-}
-
-
-.container1 .custom-size{
-    font-size: 40px;
-     color:  #ffb547; 
-     position: relative; 
-     top: 2rem; 
-     left: 3px; 
-}
-.container1 h1{
-    text-align: center; 
-    color: rgb(0, 0, 0); 
-    font-weight: 500; 
-    font-family: 'Roboto'; 
-    font-size: 20px; 
-    margin-top: 2.3rem;
-}
-.container1 p{
-    text-align: center; 
-    font-weight: 500; 
-    color: rgb(0, 0, 0); 
-    font-family: 'Roboto'; 
-    font-size: 12px; 
-    margin-top: 6px;
-}
-.container2 .custom-size{
-    font-size: 40px;
-     color:  #ffb547; 
-     position: relative; 
-     top: 1rem; 
-     left: 3px;  
-}
-.container2 h1{
-    text-align: center; 
-    color: rgb(0, 0, 0); 
-    font-weight: 500; 
-    font-family: 'Roboto-thin'; 
-    font-size: 20px; 
-    margin-top: 2.3rem;
-}
-.container2 p{
-    text-align: center; 
-    font-weight: 500; 
-    color: rgb(0, 0, 0); 
-    font-family: 'Roboto'; 
-    font-size: 12px; 
-    margin-top: 6px;
-}
-.container3 .custom-size{
-    font-size: 40px;
-     color:  #ffb547; 
-     position: relative; 
-     top: 2rem; 
-     left: 3px;  
-}
-.container3 h1{
-    text-align: center; 
-    color: rgb(0, 0, 0); 
-    font-weight: 500; 
-    font-family: 'Roboto'; 
-    font-size: 20px; 
-    margin-top: 2.3rem;
-}
-.container3 p{
-    text-align: center; 
-    font-weight: 500; 
-    color: rgb(0, 0, 0); 
-    font-family: 'Roboto'; 
-    font-size: 12px; 
-    margin-top: 6px;
-}
-
 .container4 .custom-size{
     font-size: 40px;
      color:  #ffb547; 
@@ -440,7 +412,6 @@ header  h1{
     text-align: center; 
     color: rgb(0, 0, 0); 
     font-weight: 400; 
-    font-family: 'Roboto'; 
     font-size: 20px; 
     margin-top: 2.3rem;
 }
@@ -448,23 +419,27 @@ header  h1{
     text-align: center; 
     font-weight: 500; 
     color: rgb(0, 0, 0); 
-    font-family: 'Roboto'; 
     font-size: 12px; 
     margin-top: 6px;
 }
 .Content5{
-   text-align: center;
-   flex-wrap: wrap;
-}
-.Text3 h1{
+    text-align: center;
+    flex-wrap: wrap;
+ }
+ .Text3{
+    margin-top: 5rem;
+ }
+ .Text3 h1{
     color: white;
     align-items: center;
-    margin-top: 7rem;
+    flex-wrap: wrap;
+    font-size: 40px; 
 }
 .boxContainer{
     display: flex;
     justify-content: center; 
     align-items: center;    
+    flex-wrap: wrap;
 }
 .boxContent{
     width: 800px;
@@ -478,7 +453,7 @@ header  h1{
     justify-content: center;
     border-radius: 10px;
 }
- .Img{
+.Img{
     width: 250px;
     height: 200px;
     margin-bottom: 1rem;
@@ -488,7 +463,7 @@ header  h1{
     margin-top: 2rem;
     box-shadow: 0 5px 0x #ffb547;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    
+    flex-wrap: wrap;
 }
 .Img:hover{
     transform: translateY(-10px) translateX(-4PX);
@@ -497,193 +472,90 @@ header  h1{
 .Img p{
     margin-top: 1rem;
     color: white;
+    font-size: 22px;
 }
 
-
 @media screen and (max-width:500px){
-    *{
-        padding: 0;
-        margin: 0;
+    .Navbar {
+       flex-direction: column;
+       align-items: flex-start;
     }
-    .menu{
+    .Navbar h1{
+        margin-top: 2rem;
+    }
+    .nav li a{
         display: none;
-        flex-direction: column;
-        background-color:#ffb54785;
-        position: absolute;
-        top: 60px;
-        right: 20px;
-        width: 200px;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
-        transition: max-height 0.5s ease-out;
-    }
-    .menu li {
-        margin: 0;
-        border-bottom: 1px solid white;
-        height: 50px;
-        display: block;
-    }
-    .menu li a{
-        font-size: 20px;
-    }
-
-    .menu a {
-        padding: 5px 10px;
-        transition: 0.3s;
-    }
-
-    .menu-toggle {
-        display: block;
+       
     }
     .Content1{
-        display: block;
+        margin-top: 10px;
+        gap: 1rem;
     }
-
-    .Text{
-        width: 100%;
-        margin-top: 1rem;
-        margin-left: 6rem;
-    }
-    .Text p{
-        font-size: 20px;
-    }
-    .Text h1{
-        font-size: 45px;
-    }
-    .Text h2{
-        font-size: 19px;
-    }
-    .img{
-        margin-top: 1rem;
-        width: 300px;
-        margin-left: 5rem;
-    }
-    .img img{
-        position: relative;
-        right: 4rem;
-        width: 400px;
-    }
-
     .Content2{
-        display: block;
-    }
-
-    .img2 {
-        margin-top: 1rem;
-        width: 300px;
-        margin-left: 5rem;
-    }
-    .img2 img{
-        position: relative;
-        right: 4rem;
-        width: 400px;
-    }
-
-    .Text1 h1, h3{
-       text-align: center;
-    }
-    .Text1 p{
-        text-align: center;
-        font-weight: 600;
-        font-size: 15px;
-    }
-    .Inner_text ol{
-        text-align: center;
-        font-size: 20px;
-    }
-    .Inner_text ol strong{
-        font-size: 20px;
-        font-weight: 700;
-    }
-    .Resume{
-        margin-top: 1rem;
-      margin-left: 11rem;
+        gap: 4rem;
     }
     .Content3{
-        margin-top: 5rem;
+        margin-top: 8rem;
     }
-    .Text2 h1{
-        font-size: 40px;
+    .Content4{
+        margin-top: 3rem;
+    }
+    .Text{
+        align-items: center; 
+        margin-left: 2rem;
+        flex-wrap: wrap;
+        margin-top: 3rem;
+    }
+    .Text h1{
+        font-size: 70px;
         font-weight: 900;
     }
-    .Text2 p{
-        font-size: 15px;
-        line-height: 1.5rem;
+    
+    .Text p{
+        color:#ffb54788 ; 
+        font-size: 20px; 
+        margin-top: 2rem;
     }
-    .box{
+    .Text3{
+        margin-top: 3rem;
+    }
+    .img{
+       display: none;
+    }
+    .img2{
+        margin-top: 4rem;
+        margin-left: 1.5rem;
+    }
+
+     .img2 img{
+        width: 300px;
+        height: 440px;  
+        margin-left: 1rem;
+     }
+     .boxContainer{
         display: block;
-        margin-left: 3rem;
+     }
+     .boxContent{
+        display: block;
+        width: 300px;
+        height: 100vh;
+        margin-left: 2.5rem;
+        justify-content: center;
+        align-items: center;
+     }
+     .Img{
+        margin-left: 1.5rem;
+        margin-top: 2.5rem;
+     }
+     .box{
+        display: block;
+        margin-left: 1rem;
         margin-top: 2rem;
     }
     .Box{
         display: block;
         margin-top: 1rem;
-        margin-left: 3rem;
+        margin-left: 1rem;
     }
-    .Content4{
-        margin-top: 3rem;
-    }
-    .header_Text{
-        text-align: center;
-    }
-    .header_Text h1{
-        margin-top: 1rem;
-        font-size: 45px;
-    }
-    .header_Text p{
-        font-size: 20px;
-        margin-top: 20px;
-    }
-    .innerBox1{
-       flex-direction: column;
-       gap: 2rem;
-       align-items: center;
-    }
-    .container, .container1,.container2{
-        width: 300px;
-        height: 200px;
-    }
-    .innerBox2{
-        flex-direction: column;
-        align-items: center;
-        gap: 2rem;
-    }
-
-    .container3, .container4,.container5{
-        width: 300px;
-        height: 200px;
-    }
-    .container h1{
-        font-size: 20px;
-        font-weight: 500;
-        margin-top: 3rem;
-    }
-    .container1 h1{
-        font-size: 20px;
-        font-weight: 500;
-        margin-top: 3rem;
-    }
-    .container2 h1{
-        font-size: 20px;
-        font-weight: 500;
-        margin-top: 3rem;
-    }
-    .container3 h1{
-        font-size: 20px;
-        font-weight: 500;
-        margin-top: 3rem;
-    }
-    .container4 h1{
-        font-size: 20px;
-        font-weight: 500;
-        margin-top: 3rem;
-    }
-
-
-    .boxContent{
-        width: 250px;
-        height: 800px;
-        align-items: center;
-        flex-direction: column;
-        border: none;
-    }
+ 
 }
