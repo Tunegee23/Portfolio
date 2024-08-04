@@ -148,6 +148,7 @@ body{
     margin-top:1rem; 
     line-height: 2rem;
     flex-wrap: wrap;
+   
 }
 .Inner_text ol{
     color: rgba(255, 255, 255, 0.288); 
@@ -542,6 +543,7 @@ body{
         margin-left: 2.5rem;
         justify-content: center;
         align-items: center;
+        border: none;
      }
      .Img{
         margin-left: 1.5rem;
