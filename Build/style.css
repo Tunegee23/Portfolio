@@ -110,7 +110,7 @@ body{
     height: 440px;
 }
 .Content2{
-    gap: 8rem;
+    gap: 6rem;
     display: flex;
     margin-top: 6rem;
     flex-wrap: wrap;
@@ -122,13 +122,14 @@ body{
     margin-left: 3rem;
  }
  .img2 img{
-    width: 500px;
+    width: 450px;
     height: 440px;
-    margin-left: 5rem;
+    margin-left: 3rem;
  }
  .Text1{
     display: block;
     text-align: center;
+    margin-left: 4rem;
 }
 .Text1 h1{
     color:#ffffff;
