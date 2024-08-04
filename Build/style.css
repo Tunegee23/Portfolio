@@ -502,6 +502,9 @@ body{
     .Content4{
         margin-top: 3rem;
     }
+    .Text1{
+        margin-left: 0rem;
+    }
     .Text{
         align-items: center; 
         margin-left: 2rem;
