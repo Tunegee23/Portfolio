@@ -1,4 +1,18 @@
-*{
+.Box:hover {
+    transform: translateY(-10px) translateX(-4PX);
+    box-shadow: 0 5px 25px  #ffb547;
+}
+ .custom-size{
+    font-size: 40px;
+     color:  #ffb547; 
+     position: relative;
+}
+.Img:hover{
+    transform: translateY(-10px) translateX(-4PX);
+    box-shadow: 0 5px 25px  #ffb547;
+}
+
+/* *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -25,28 +39,29 @@
 }
 .Content1{
     display: grid ;
-    padding: 1rem;
-    justify-content: center;
-    
+    padding: 1rem; 
 }
 
 .Text{
     display: grid;
     justify-content: center;
+    width: 300px;
 }
 .Text h1{
     color:#ffb547;
-    font-size: 50px; 
+    font-size: 40px; 
     font-weight:700;
 }
  h1 strong{
     color: white;
 }
 .Text h2{
+   
     color: white;
-    line-height: 2rem;
+    line-height: 3rem;
     font-size: 22px; 
     font-weight: 500;
+   
 }
 .Button{
     display: flex;
@@ -72,30 +87,31 @@
     font-weight: 700;
     color: white;
 }
-.Text .img{
-    width: 100%;
+.img{
+    width: 100px;
 }
+
 .img img{
-    width: 20rem;  
+    width:300px;  
 }
 
 
 .Content2{
     display: grid ;
     padding: 1rem;
-    justify-content: center;
 }
 
 .Text1{
     display: grid;
-    justify-content: center;
     gap: 1rem;
     margin-top: 1rem;
     text-align: center;
+    width: 300px;
 }
 
 .Text1 h1{
    font-size: 30px;
+
 }
 
 .Text1 p{
@@ -139,9 +155,8 @@
 }
 
 .img2{
-    border-radius: 10px;
+   width: 100px;
     flex-wrap: wrap;
-    margin-left: 4rem;
     margin-top: 1rem;
  }
 
@@ -153,11 +168,20 @@
     padding: 1rem;
 }
 .Text2{
+    width: 300px;
     display: grid;
     text-align: center;
-    line-height: 1.7rem;
+}
+.Text2 h1 {
+    font-size: 30px;
+    font-weight: 600;
+}
+.Text2 p{
+    font-size: 18px;
+    line-height: 1.5rem;
 }
 .box{
+    width: 310px;
      display: grid; 
      align-items: center; 
      justify-content: center; 
@@ -166,6 +190,7 @@
 }
 .Box{
     display: grid; 
+    width: 310px;
     align-items: center;
     justify-content: center;
     margin-top: 1rem; 
@@ -543,4 +568,4 @@
 }
 
 
-
+ */
